@@ -1,0 +1,175 @@
+{
+  "uid" : "43ff04504a836a40",
+  "name" : "test_post_creation",
+  "fullName" : "tests.test_jsonplaceholder.TestUserAPI#test_post_creation",
+  "historyId" : "14b91e45fc461bd84fe23e4c5871e6dc",
+  "time" : {
+    "start" : 1728727664975,
+    "stop" : 1728727665552,
+    "duration" : 577
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1728727664687,
+      "stop" : 1728727664688,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "api_client",
+    "time" : {
+      "start" : 1728727664688,
+      "stop" : 1728727664688,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "fetch_user_data",
+    "time" : {
+      "start" : 1728727664688,
+      "stop" : 1728727664688,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify a new user post creation",
+      "time" : {
+        "start" : 1728727664975,
+        "stop" : 1728727665551,
+        "duration" : 576
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get a random user",
+        "time" : {
+          "start" : 1728727664975,
+          "stop" : 1728727665125,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Create user post",
+        "time" : {
+          "start" : 1728727665125,
+          "stop" : 1728727665551,
+          "duration" : 426
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user_data",
+          "value" : "UserData(userId=4, user_email=None, title='choice', body='government')"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "api_client",
+        "value" : "<framework.api.base.ApiClient object at 0x1073bfc10>"
+      }, {
+        "name" : "fetch_user_data",
+        "value" : "<function fetch_user_data.<locals>._get_user_data at 0x1073494e0>"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User Information"
+  }, {
+    "name" : "story",
+    "value" : "Retrieve User and Validate Posts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_jsonplaceholder"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAPI"
+  }, {
+    "name" : "host",
+    "value" : "MBA-C02H306PQ6LW"
+  }, {
+    "name" : "thread",
+    "value" : "5975-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_jsonplaceholder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43ff04504a836a40.json",
+  "parameterValues" : [ ]
+}

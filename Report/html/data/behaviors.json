@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "User Information",
+    "children" : [ {
+      "name" : "Retrieve User and Validate Posts",
+      "children" : [ {
+        "name" : "test_user_associated_post",
+        "uid" : "b2cc84afad021467",
+        "parentUid" : "5bbaebb950cfd8a144df2c31a612440d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728727664688,
+          "stop" : 1728727664970,
+          "duration" : 282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_post_creation",
+        "uid" : "43ff04504a836a40",
+        "parentUid" : "5bbaebb950cfd8a144df2c31a612440d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728727664975,
+          "stop" : 1728727665552,
+          "duration" : 577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5bbaebb950cfd8a144df2c31a612440d"
+    } ],
+    "uid" : "35d48fda9f5653f6112716c296911f80"
+  } ]
+}

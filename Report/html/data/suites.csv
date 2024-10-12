@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Oct 12 12:07:44 CEST 2024","Sat Oct 12 12:07:44 CEST 2024","282","tests","test_jsonplaceholder","TestUserAPI","","","test_user_associated_post",""
+"passed","Sat Oct 12 12:07:44 CEST 2024","Sat Oct 12 12:07:45 CEST 2024","577","tests","test_jsonplaceholder","TestUserAPI","","","test_post_creation",""

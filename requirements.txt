@@ -1,0 +1,7 @@
+pytest
+requests
+allure-pytest
+loguru
+faker
+tenacity
+pandas
